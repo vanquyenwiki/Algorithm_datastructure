@@ -20,4 +20,4 @@ $(VERSION_2DPEAK): $(VERSION_2DPEAK_OBJ)
 	$(CC) -o $@ $(VERSION_2DPEAK_OBJ)
 
 clean:
-	rm -rf *.o ~* $(PEAK)
+	rm -rf *.o ~* $(VERSION_1DPEAK) $(VERSION_2DPEAK)
